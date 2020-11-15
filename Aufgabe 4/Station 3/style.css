@@ -1,0 +1,54 @@
+.karte {
+position: relative;
+background-image: url(wrapperbg.png);
+width: 600px;
+height: 400px;
+}
+body{
+    background-image: url(bg.png);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 960px;
+}
+.text{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    top: 0px;
+    left: 0px;
+    padding: 30px 50px 40px 75px;
+}
+.bilder div{
+    position: absolute;
+}
+
+#stern1{
+    top:250px;
+    right:50px;
+}
+#stern2{
+    top:100px;
+    right:400px;
+}
+#stern3{
+    top:270px;
+    right:200px;
+}
+#stern4{
+    top:200px;
+    right:320px;
+}
+.stern{
+    width: 65px;
+    height: 65px;
+    background-image: url(stern.png);
+}
+.stern:hover{
+    background-image: url(stern_hover.png);
+}
+
+
+
+

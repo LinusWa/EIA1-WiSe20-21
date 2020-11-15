@@ -1,0 +1,28 @@
+.karte {
+position: relative;
+background-image: url(wrapperbg.png);
+width: 600px;
+height: 400px;
+}
+body{
+    background-image: url(bg.png);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 960px;
+}
+#dings{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.player{
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    z-index: 0;
+}
+
+
+
