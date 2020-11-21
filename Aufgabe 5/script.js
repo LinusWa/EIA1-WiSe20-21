@@ -8,6 +8,8 @@ var naem08 = 6600.4;
 var naem18 = 6035.6;
 var asem08 = 12954.7;
 var asem18 = 16274.1;
+var auem08 = 1993;
+var auem18 = 2100.5;
 var gesem = euem18 + afem18 + saem18 + naem18 + asem18;
 console.log('Die Emission von Europa war 2018: ' + euem18, 'kg CO2');
 console.log('Relativ zur Gesamtemission verursachte Europa damit ' + (Math.round(((euem18 / gesem) * 100) * 100) / 100).toFixed(2), '%');
@@ -29,4 +31,8 @@ console.log('Die Emission von Asien war 2018: ' + asem18, 'kg CO2');
 console.log('Relativ zur Gesamtemission verursachte Asien damit ' + (Math.round(((asem18 / gesem) * 100) * 100) / 100).toFixed(2), '%');
 console.log('Für Asien hat sich 2018 die Emission um ' + (Math.round((100 - (asem08 / asem18) * 100) * 100) / 100).toFixed(2), '% verändert');
 console.log('Das entspricht einer Veränderung von ' + (Math.round((asem18 - asem08) * 100) / 100).toFixed(2), 'kg CO2');
+console.log('Die Emission von Australien war 2018: ' + auem18, 'kg CO2');
+console.log('Relativ zur Gesamtemission verursachte Australien damit ' + (Math.round(((auem18 / gesem) * 100) * 100) / 100).toFixed(2), '%');
+console.log('Für Australien hat sich 2018 die Emission um ' + (Math.round((100 - (auem08 / auem18) * 100) * 100) / 100).toFixed(2), '% verändert');
+console.log('Das entspricht einer Veränderung von ' + (Math.round((auem18 - auem08) * 100) / 100).toFixed(2), 'kg CO2');
 //# sourceMappingURL=script.js.map
