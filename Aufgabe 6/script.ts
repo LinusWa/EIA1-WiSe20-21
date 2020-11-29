@@ -53,6 +53,8 @@ document.querySelector("p").innerHTML = "Emission absolute of " + name + " in 20
 document.querySelector(".h202").innerHTML = rel + "%";
 document.querySelector(".h203").innerHTML = change + "%";
 document.querySelector(".h204").innerHTML = growth + "";
+
+document.querySelector(".chart").setAttribute( 'style', 'height:' + Math.round(em18/gesem*100) + "%")
 }
 
 window.addEventListener('load', function () {

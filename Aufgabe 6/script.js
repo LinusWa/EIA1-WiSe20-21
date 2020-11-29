@@ -36,6 +36,7 @@ function myFunction(name, em18, rel, change, growth) {
     document.querySelector(".h202").innerHTML = rel + "%";
     document.querySelector(".h203").innerHTML = change + "%";
     document.querySelector(".h204").innerHTML = growth + "";
+    document.querySelector(".chart").setAttribute('style', 'height:' + Math.round(em18 / gesem * 100) + "%");
 }
 window.addEventListener('load', function () {
     document.querySelector(".europe").addEventListener("click", myFunction.bind(null, "Europe", euem18, eurel, euchange, eugrowth));
