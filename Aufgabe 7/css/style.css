@@ -7,7 +7,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 500px;
-    height: 570px;
+    height: 800px;
     left: 50%;
     top: 50%;
     display: flex;
@@ -162,13 +162,29 @@ body{
       opacity: 0.85;
   }
   
-
-.play{
+  .slowdown{
     position: relative;   
+    margin: 6px;
+    margin-top: 20px;
     box-shadow: 
     inset 3px 3px 1px #FFFFFF11, 
     inset -3px -3px 1px #00000011;  
-    margin: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;    
+    background-color: #414141;
+
+}
+.slowdown:hover{
+    background-color: #6a6868;
+}
+.play{
+    position: relative;   
+    margin: 6px;
+    margin-top: 20px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF11, 
+    inset -3px -3px 1px #00000011;  
     width: 150px;
     height: 150px;
     border-radius: 16px;    
@@ -176,5 +192,38 @@ body{
 
 }
 .play:hover{
+    background-color: #6a6868;
+}
+
+
+.speedup{
+    position: relative;   
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF11, 
+    inset -3px -3px 1px #00000011;  
+    margin: 6px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;    
+    background-color: #414141;
+
+}
+.speedup:hover{
+    background-color: #6a6868;
+}
+.stop{
+    position: relative;   
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF11, 
+    inset -3px -3px 1px #00000011;  
+    margin: 6px;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;    
+    background-color: #414141;
+
+}
+.stop:hover{
     background-color: #6a6868;
 }

@@ -43,21 +43,54 @@ window.addEventListener('load', function () {
 
 var beat: HTMLAudioElement [] =  [ button5, button8, button4];
 var index= 0;
+var speed = 250;
+let stopbeat:boolean = false;
+
+
+function speedup(){
+    speed = speed -50;
+    if (speed < 50) {
+        speed = 50;
+    }
+}
+function slowdown(){
+    speed = speed +50
+}
 
 function player() {
-    setInterval(function () {
+    var repeat = setInterval(function () {
         beat[index].play();
-        console.log(index);
         index++;
+        console.log(speed);
         if (index == 3 ) 
         {
             index = 0;
         }
-    }, 350);
+        if (stopbeat==true)
+        {
+            clearInterval(repeat)
+        }
+    }, speed);
 };
 
 window.addEventListener('load', function () {
-document.querySelector(".play").addEventListener("click", function() {
-    player()
-    })
+    document.querySelector(".play").addEventListener("click", function() {
+            stopbeat = false;
+            player ()
+        })
+});
+window.addEventListener('load', function () {
+    document.querySelector(".speedup").addEventListener("click", function() {
+        speedup()
+        })
+});
+window.addEventListener('load', function () {
+    document.querySelector(".slowdown").addEventListener("click", function() {
+        slowdown()
+        })
+});
+window.addEventListener('load', function () {
+    document.querySelector(".stop").addEventListener("click", function() {
+        stopbeat = true;
+        })
 });
