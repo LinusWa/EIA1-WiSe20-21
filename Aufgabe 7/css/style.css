@@ -1,0 +1,180 @@
+body{ 
+    background-color: #1f1f1f;
+}
+
+.drumpad{
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 570px;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    
+}
+
+.button0{
+    position: relative;
+    margin: 6px;
+    background-color: #2d79e2;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+      
+
+}
+.button0:hover{
+    opacity: 0.85;
+}
+
+.button1{
+    position: relative;
+    margin: 6px;
+    background-color: #2d79e2;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+      
+}
+.button1:hover{
+    opacity: 0.85;
+}
+
+.button2{
+    position: relative;
+    margin: 6px;
+    background-color: #2d79e2;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+    
+}
+.button2:hover{
+    opacity: 0.85;
+}
+
+.button3{
+    position: relative;
+    margin: 6px;
+    background-color: #f72f97 ;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+}
+.button3:hover{
+    opacity: 0.85;
+}
+
+.button4{
+    position: relative;
+    margin: 6px;
+    background-color: #f72f97;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+    
+}
+.button4:hover{
+    opacity: 0.85;
+}
+
+.button5{
+    position: relative;
+    margin: 6px;
+    background-color: #f72f97;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+    
+}
+.button5:hover{
+    opacity: 0.85;   
+}
+
+.button6{
+    position: relative;
+    margin: 6px;
+    background-color: #f72f97;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+
+}
+.button6:hover{
+    opacity: 0.85;
+}
+
+.button7{
+    position: relative;
+    margin: 6px;
+    background-color: #df8621;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+
+}
+.button7:hover{
+    opacity: 0.85;
+}
+
+.button8{
+    position: relative;
+    margin: 6px;
+    background-color: #df8621;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF99, 
+    inset -3px -3px 1px #00000099;
+
+}
+
+  .button8:hover{
+      opacity: 0.85;
+  }
+  
+
+.play{
+    position: relative;   
+    box-shadow: 
+    inset 3px 3px 1px #FFFFFF11, 
+    inset -3px -3px 1px #00000011;  
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;    
+    background-color: #414141;
+
+}
+.play:hover{
+    background-color: #6a6868;
+}
