@@ -54,7 +54,6 @@ function player() {
     var repeat = setInterval(function () {
         beat[index].play();
         index++;
-        console.log(speed);
         if (index == 3) {
             index = 0;
         }
