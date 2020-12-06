@@ -39,16 +39,19 @@ window.addEventListener('load', function () {
 });
 var beat = [button5, button8, button4];
 var index = 0;
-var speed = 250;
+var speed = 500;
 var stopbeat = false;
 function speedup() {
     speed = speed - 50;
-    if (speed < 50) {
+    if (speed < 250) {
         speed = 50;
     }
 }
 function slowdown() {
     speed = speed + 50;
+    if (speed > 500) {
+        speed = 500;
+    }
 }
 function player() {
     var repeat = setInterval(function () {

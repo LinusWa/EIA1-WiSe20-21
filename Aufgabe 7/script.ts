@@ -43,18 +43,21 @@ window.addEventListener('load', function () {
 
 var beat: HTMLAudioElement [] =  [ button5, button8, button4];
 var index= 0;
-var speed = 250;
+var speed = 500;
 let stopbeat:boolean = false;
 
 
 function speedup(){
     speed = speed -50;
-    if (speed < 50) {
+    if (speed < 250) {
         speed = 50;
     }
 }
 function slowdown(){
     speed = speed +50
+    if (speed > 500){
+        speed = 500;
+    }
 }
 
 function player() {
