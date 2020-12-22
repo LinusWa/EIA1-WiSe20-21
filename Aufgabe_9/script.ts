@@ -21,6 +21,7 @@ function createElement (): void {
 
     let textInput: HTMLSpanElement = document.createElement("span");
     textInput.innerHTML = newTask.value;
+    newTask.value = "";
 
     let circleIcon: HTMLElement = document.createElement("i");
     circleIcon.className = "fal fa-circle";
